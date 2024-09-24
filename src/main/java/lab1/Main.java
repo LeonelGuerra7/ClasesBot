@@ -1,6 +1,7 @@
 package lab1;
 
 import lab1.botTelegram.Bot;
+import lab1.botTelegram.BotPreguntonDbDinamico;
 import lab1.botTelegram.BotRegistra;
 import lab1.botTelegram.PokemonBot;
 import lab1.model.User;
@@ -154,6 +155,7 @@ public class Main {private static void PruebaInsertaUsuario() {
         }
        // PruebaInsertaUsuario();
         explicacionUsoMap();
+
 
     }
 }

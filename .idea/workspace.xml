@@ -4,23 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1265ca58-4763-4732-8121-0da7206001c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lab1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lab1/botTelegram/Bot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lab1/botTelegram/BotRegistra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lab1/botTelegram/PokemonBot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lab1/botTelegram/botPregunton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lab1/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lab1/db/DatabaseConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lab1/db/TransactionManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lab1/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lab1/service/UserService.java" afterDir="false" />
+    <list default="true" id="1265ca58-4763-4732-8121-0da7206001c1" name="Changes" comment="Bot hecho en clase">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lab1/botConfig/BotConfiguracion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lab1/botTelegram/BotPreguntonDbDinamico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lab1/dao/CuestionarioDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lab1/dao/PreguntaDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lab1/dao/RespuestaDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lab1/model/Cuestionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lab1/model/Pregunta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lab1/model/Respuesta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lab1/service/CuestionarioService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lab1/service/PreguntaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lab1/service/RespuestaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab1/botTelegram/botPregunton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab1/botTelegram/botPregunton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +35,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;LeonelGuerra7&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/LeonelGuerra7/BotEnClase.git&quot;,
+    &quot;accountId&quot;: &quot;1435551e-a655-4449-bacc-055ca27ae5eb&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -80,11 +90,29 @@
       <workItem from="1723303777578" duration="5627000" />
       <workItem from="1723861918484" duration="4770000" />
       <workItem from="1723872523952" duration="684000" />
-      <workItem from="1723907638794" duration="8716000" />
+      <workItem from="1723907638794" duration="9535000" />
+      <workItem from="1725117573244" duration="4775000" />
+      <workItem from="1725722128506" duration="1589000" />
+      <workItem from="1726191628105" duration="445000" />
+      <workItem from="1726322799549" duration="596000" />
+      <workItem from="1727150530732" duration="308000" />
     </task>
+    <task id="LOCAL-00001" summary="Bot hecho en clase">
+      <option name="closed" value="true" />
+      <created>1725076966611</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725076966611</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Bot hecho en clase" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bot hecho en clase" />
   </component>
 </project>
